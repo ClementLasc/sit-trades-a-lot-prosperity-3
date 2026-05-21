@@ -18,3 +18,7 @@ Each folder contains a `trader.py` (submitted algorithm) and analysis notebooks.
 ## How it works
 
 Each iteration, the engine calls `Trader.run(state: TradingState)` with the current order book and recent trades. The algorithm places orders to match bot quotes or leaves resting quotes for bots to fill. Positions are tracked per product and must stay within hard limits — breaching them cancels all orders for that iteration.
+
+## License
+
+MIT 
